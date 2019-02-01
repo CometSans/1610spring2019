@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: e75b44fba207543a58fc73fd0df29b84
+guid: fafa06787a40048e98e414c903fff845
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Cat
+    21300000: Penguin 1_0
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -85,21 +85,21 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat
+      name: Penguin 1_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 17
-        width: 462
-        height: 433
+        x: 1039
+        y: 1506
+        width: 552
+        height: 843
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f77a36ef1767a474d90d0dbe7b76133e
+      spriteID: 57259ebecf40d49d5957bf25858a33f9
       vertices: []
       indices: 
       edges: []
@@ -107,7 +107,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 19701c262b2fe421aab98ec52fb5c1a9
+    spriteID: 6ede998028e564b3386c3e64e5044d46
     vertices: []
     indices: 
     edges: []
