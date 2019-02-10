@@ -10,12 +10,14 @@ public class LandAnimal : Animal
 	
 	
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+	{
+		transform.Rotate(0,100,0);	
 	}
 }

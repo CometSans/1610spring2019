@@ -283,8 +283,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 831988538}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 582, y: 109, z: 0}
-  m_LocalScale: {x: 3.9, y: 4.2, z: 1}
+  m_LocalPosition: {x: 8.8, y: 1.1, z: 0}
+  m_LocalScale: {x: 0.47174403, y: 0.52919996, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -296,7 +296,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 831988538}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 51a587ff5c1d04652a2c4365153344ee, type: 2}
   m_CullingMode: 0
@@ -319,9 +319,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Katsuki
-  SkinColor: {r: 0.745283, g: 0.55980927, b: 0.2214756, a: 0}
-  FeetColor: {r: 0.9339623, g: 0.7284306, b: 0, a: 0}
-  TailColor: {r: 0.990566, g: 0.5111837, b: 0.051397298, a: 0}
+  SkinColor: {r: 0.46226418, g: 0.35901627, b: 0.16789782, a: 1}
+  FeetColor: {r: 0.9339623, g: 0.7284306, b: 0, a: 1}
+  TailColor: {r: 0.990566, g: 0.5111837, b: 0.051397298, a: 1}
 --- !u!1 &878378350
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,8 +446,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 953698736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.2, y: -2.9, z: 0}
-  m_LocalScale: {x: 140.75713, y: 0.91381216, z: 1}
+  m_LocalPosition: {x: 39.2, y: -5.05, z: 0}
+  m_LocalScale: {x: 140.75713, y: 5.214212, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -641,8 +641,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1154064833}
   m_LocalRotation: {x: 0.0035393308, y: 0.020398866, z: -0.18331026, w: -0.9828371}
-  m_LocalPosition: {x: 120, y: 233, z: 3}
-  m_LocalScale: {x: 10.157299, y: 8.59409, z: 1}
+  m_LocalPosition: {x: -6.6, y: 3.1, z: -3}
+  m_LocalScale: {x: 0.3009478, y: 0.26813903, z: 1}
   m_Children: []
   m_Father: {fileID: 878378351}
   m_RootOrder: 0
@@ -1026,7 +1026,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.9433962, g: 0.022249907, b: 0.87103856, a: 1}
+      maxColor: {r: 0.46729326, g: 0.44313723, b: 0.972549, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1088,7 +1088,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1404,7 +1404,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -1463,7 +1463,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 4
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1484,7 +1484,7 @@ ParticleSystem:
     m_UseMeshColors: 1
     alignToDirection: 0
     m_Texture: {fileID: 0}
-    m_TextureClipChannel: 3
+    m_TextureClipChannel: 1
     m_TextureClipThreshold: 0
     m_TextureUVChannel: 0
     m_TextureColorAffectsParticles: 1
@@ -1613,7 +1613,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5729,7 +5729,7 @@ ParticleSystem:
       m_RotationOrder: 4
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
-  scalingMode: 1
+  scalingMode: 2
   randomSeed: 0
   InitialModule:
     serializedVersion: 3
@@ -5844,7 +5844,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.9622642, g: 0.040850822, b: 0.040850822, a: 1}
+      maxColor: {r: 0.8113208, g: 0.14159843, b: 0.14159843, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5906,7 +5906,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6222,7 +6222,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -6431,7 +6431,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -10399,8 +10399,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981795452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 479.1, y: 127, z: 0}
-  m_LocalScale: {x: 31.50015, y: 26.814226, z: 1}
+  m_LocalPosition: {x: 4.4, y: 0.9, z: 0}
+  m_LocalScale: {x: 2.07901, y: 2.1719525, z: 1}
   m_Children:
   - {fileID: 1728941038}
   m_Father: {fileID: 0}

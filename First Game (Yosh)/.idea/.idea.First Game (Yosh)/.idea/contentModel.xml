@@ -8,7 +8,7 @@
         <e p="FlyingAnimals.cs" t="Include" />
         <e p="LandAnimal.cs" t="Include" />
         <e p="PenguinEvent.cs" t="Include" />
-        <e p="Water Animal.cs" t="Include" />
+        <e p="WaterAnimal.cs" t="Include" />
       </e>
       <e p="First Game (Yosh).sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

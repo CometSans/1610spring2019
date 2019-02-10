@@ -8,8 +8,9 @@ public class Animal : MonoBehaviour
 
 	public Color SkinColor; 
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+	{
+		print("Hello World");
 	}
 	
 	// Update is called once per frame
