@@ -5,15 +5,17 @@ using UnityEngine;
 public class Animal : MonoBehaviour
 {
 	public string Name;
-
+	public int Health;
+	public float Speed;
+	
 	public Color SkinColor; 
-	// Use this for initialization
+	//Write Event that changes a color and game variables HOMEWORK
 	void Start ()
 	{
-		print("Hello World");
+		
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		
 	}
