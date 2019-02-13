@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -17,7 +18,7 @@ public class LandAnimal : Animal
 	void Start ()
 	{
 		GetComponent<SpriteRenderer>().color = SkinColor;
-		Event.Invoke();
+		Event.Invoke(ChangeColor = Color.cyan);
 	}
 	
 	// Update is called once per frame
