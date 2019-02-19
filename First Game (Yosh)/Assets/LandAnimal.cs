@@ -18,7 +18,7 @@ public class LandAnimal : Animal
 	void Start ()
 	{
 		GetComponent<SpriteRenderer>().color = SkinColor;
-		Event.Invoke(ChangeColor = Color.cyan);
+	
 	}
 	
 	// Update is called once per frame
