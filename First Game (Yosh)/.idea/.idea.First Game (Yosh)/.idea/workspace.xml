@@ -10,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="195">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <marker date="1549908196925" expanded="false" signature="6:78" ph="..." />
@@ -25,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/LandAnimal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="210">
               <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding>
                 <marker date="1550550931145" expanded="false" signature="6:138" ph="..." />
@@ -103,12 +103,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -164,11 +164,12 @@
       <workItem from="1550033117108" duration="588000" />
       <workItem from="1550078830018" duration="305000" />
       <workItem from="1550550916005" duration="95000" />
+      <workItem from="1553125729072" duration="55000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3699000" />
+    <option name="totallyTimeSpent" value="3754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,7 +183,7 @@
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="791" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -228,15 +229,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Animal.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Water Animal.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1549908196925" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549908196925" expanded="true" signature="115:324" ph="{...}" />
-            <marker date="1549908196925" expanded="true" signature="286:295" ph="{...}" />
-            <marker date="1549908196925" expanded="true" signature="315:322" ph="{...}" />
+            <marker date="1550078984179" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550078984179" expanded="true" signature="139:168" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -254,26 +253,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <marker date="1550078984179" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550078984179" expanded="true" signature="139:168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LandAnimal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="210">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding>
             <marker date="1550550931145" expanded="false" signature="6:138" ph="..." />
             <marker date="1550550931145" expanded="true" signature="172:468" ph="{...}" />
             <marker date="1550550931145" expanded="true" signature="342:402" ph="{...}" />
             <marker date="1550550931145" expanded="true" signature="457:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1549908196925" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549908196925" expanded="true" signature="115:324" ph="{...}" />
+            <marker date="1549908196925" expanded="true" signature="286:295" ph="{...}" />
+            <marker date="1549908196925" expanded="true" signature="315:322" ph="{...}" />
           </folding>
         </state>
       </provider>
