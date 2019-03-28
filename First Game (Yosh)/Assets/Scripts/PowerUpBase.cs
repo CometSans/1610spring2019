@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu]
 public class PowerUpBase : ScriptableObject 
 {
-	public float Value = 10;
-	private void OnEnable()
+	public float Value = 10.5f;
+	
+
+	public void OnPowerUp(float addValue)
 	{
-		throw new System.NotImplementedException();
+		Value += addValue;
+		
 	}
+	
 }
