@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 473709029}
   - component: {fileID: 473709031}
   - component: {fileID: 473709030}
+  - component: {fileID: 473709032}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
@@ -313,6 +314,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &473709032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 473709028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b87f5e9e4ee43e7b79ee60a17dc7a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Kacchan
+  Health: 0
+  Speed: 0
+  CanMove: 0
+  SkinColor: {r: 0, g: 0, b: 0, a: 0}
+  WingColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &509135626
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,6 +370,7 @@ GameObject:
   - component: {fileID: 525567850}
   - component: {fileID: 525567849}
   - component: {fileID: 525567851}
+  - component: {fileID: 525567852}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Untagged
@@ -440,6 +459,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &525567852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 525567848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1674b971c957045598fbe2504462c943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Deku
+  Health: 0
+  Speed: 0
+  CanMove: 0
+  SkinColor: {r: 0.13105197, g: 0.8962264, b: 0.6742377, a: 1}
+  ArmColor: {r: 0, g: 0, b: 0, a: 0}
+  LegColor: {r: 0, g: 0, b: 0, a: 0}
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 525567848}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &659654175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,6 +1367,7 @@ GameObject:
   - component: {fileID: 1141150687}
   - component: {fileID: 1141150686}
   - component: {fileID: 1141150688}
+  - component: {fileID: 1141150689}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -1400,6 +1454,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1141150689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1141150685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1313bbb135e453d94675c1e9093882, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Rocky
+  Health: 0
+  Speed: 0
+  CanMove: 0
+  SkinColor: {r: 0.8117647, g: 0.22040029, b: 0.14117643, a: 1}
+  FinColor: {r: 0.9843137, g: 0.374466, b: 0.374466, a: 0.99215686}
+  CanWalkOnLand: 0
 --- !u!1 &1154064833
 GameObject:
   m_ObjectHideFlags: 0
