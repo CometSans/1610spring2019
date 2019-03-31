@@ -12,6 +12,7 @@
           <e p="MonoEvents.cs" t="Include" />
           <e p="PenguinEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
+          <e p="SaveColorChange.cs" t="Include" />
           <e p="WaterAnimal.cs" t="Include" />
         </e>
       </e>

@@ -10,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -25,10 +25,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlyingAnimals.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1549433149732" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549433149732" expanded="true" signature="115:265" ph="{...}" />
+                <marker date="1549433149732" expanded="true" signature="194:201" ph="{...}" />
+                <marker date="1549433149732" expanded="true" signature="256:263" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="420">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <marker date="1553810737173" expanded="false" signature="6:104" ph="..." />
                 <marker date="1553810737173" expanded="true" signature="145:436" ph="{...}" />
@@ -41,14 +55,47 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <marker date="1554008152000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554008152000" expanded="true" signature="150:353" ph="{...}" />
+                <marker date="1554008152000" expanded="true" signature="244:251" ph="{...}" />
+                <marker date="1554008152000" expanded="true" signature="306:351" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1553730063815" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553730063815" expanded="true" signature="115:396" ph="{...}" />
+                <marker date="1553730063815" expanded="true" signature="308:367" ph="{...}" />
+                <marker date="1553730063815" expanded="true" signature="387:394" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlyingAnimals.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,13 +110,14 @@
         <option value="$PROJECT_DIR$/Assets/WaterAnimal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="574" />
-    <option name="y" value="31" />
-    <option name="width" value="892" />
+    <option name="x" value="136" />
+    <option name="y" value="32" />
+    <option name="width" value="1017" />
     <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,15 +126,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,11 +195,13 @@
       <workItem from="1553731496935" duration="547000" />
       <workItem from="1553809006997" duration="1340000" />
       <workItem from="1553810919634" duration="430000" />
+      <workItem from="1553905975155" duration="596000" />
+      <workItem from="1554007909696" duration="242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8708000" />
+    <option name="totallyTimeSpent" value="9546000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,10 +213,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="574" y="31" width="892" height="791" extended-state="0" />
+    <frame x="136" y="32" width="1017" height="791" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49058825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4482051" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -218,10 +268,47 @@
     <entry file="file://$PROJECT_DIR$/Assets/FloatData.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/FlyingAnimals.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/WaterAnimal.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1553730063815" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553730063815" expanded="true" signature="115:396" ph="{...}" />
+            <marker date="1553730063815" expanded="true" signature="308:367" ph="{...}" />
+            <marker date="1553730063815" expanded="true" signature="387:394" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FlyingAnimals.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549433149732" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549433149732" expanded="true" signature="115:265" ph="{...}" />
+            <marker date="1549433149732" expanded="true" signature="194:201" ph="{...}" />
+            <marker date="1549433149732" expanded="true" signature="256:263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1553811442531" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553811442531" expanded="true" signature="142:249" ph="{...}" />
+            <marker date="1553811442531" expanded="true" signature="215:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MonoEvents.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="420">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <marker date="1553810737173" expanded="false" signature="6:104" ph="..." />
             <marker date="1553810737173" expanded="true" signature="145:436" ph="{...}" />
@@ -233,15 +320,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
-            <marker date="1553811281184" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553811281184" expanded="true" signature="142:283" ph="{...}" />
-            <marker date="1553811281184" expanded="true" signature="200:209" ph="{...}" />
-            <marker date="1553811281184" expanded="true" signature="249:279" ph="{...}" />
+            <marker date="1554008152000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554008152000" expanded="true" signature="150:353" ph="{...}" />
+            <marker date="1554008152000" expanded="true" signature="244:251" ph="{...}" />
+            <marker date="1554008152000" expanded="true" signature="306:351" ph="{...}" />
           </folding>
         </state>
       </provider>
