@@ -6,6 +6,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Animal.cs" t="Include" />
+          <e p="Conditional.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FlyingAnimals.cs" t="Include" />
           <e p="LandAnimal.cs" t="Include" />
