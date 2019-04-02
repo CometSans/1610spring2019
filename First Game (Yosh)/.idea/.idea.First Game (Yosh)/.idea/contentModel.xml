@@ -10,6 +10,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FlyingAnimals.cs" t="Include" />
           <e p="LandAnimal.cs" t="Include" />
+          <e p="LightSwitch.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="PenguinEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
