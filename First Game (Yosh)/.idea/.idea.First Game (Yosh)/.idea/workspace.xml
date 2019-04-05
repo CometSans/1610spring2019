@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <marker date="1554354291789" expanded="false" signature="6:104" ph="..." />
                 <marker date="1554354291789" expanded="true" signature="150:402" ph="{...}" />
@@ -70,16 +70,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
-                <marker date="1554184810403" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554184810403" expanded="true" signature="120:238" ph="{...}" />
-                <marker date="1554184810403" expanded="true" signature="164:234" ph="{...}" />
-                <marker date="1554184810403" expanded="true" signature="195:231" ph="{...}" />
+                <marker date="1554439325859" expanded="false" signature="6:78" ph="..." />
+                <marker date="1554439325859" expanded="true" signature="146:291" ph="{...}" />
+                <marker date="1554439325859" expanded="true" signature="221:287" ph="{...}" />
+                <marker date="1554439325859" expanded="true" signature="252:284" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -163,8 +163,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpBase.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Conditional.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs" />
       </list>
     </option>
   </component>
@@ -180,6 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -187,8 +189,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +255,12 @@
       <workItem from="1554089616291" duration="1049000" />
       <workItem from="1554184452664" duration="333000" />
       <workItem from="1554354229503" duration="65000" />
+      <workItem from="1554439080084" duration="253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12252000" />
+    <option name="totallyTimeSpent" value="12505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,9 +273,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="185" y="23" width="815" height="791" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.44113842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45278138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -407,28 +407,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <marker date="1554184810403" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554184810403" expanded="true" signature="120:238" ph="{...}" />
-            <marker date="1554184810403" expanded="true" signature="164:234" ph="{...}" />
-            <marker date="1554184810403" expanded="true" signature="195:231" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SaveColorChange.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <marker date="1554354291789" expanded="false" signature="6:104" ph="..." />
             <marker date="1554354291789" expanded="true" signature="150:402" ph="{...}" />
             <marker date="1554354291789" expanded="true" signature="260:267" ph="{...}" />
             <marker date="1554354291789" expanded="true" signature="321:400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LightSwitch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <marker date="1554439325859" expanded="false" signature="6:78" ph="..." />
+            <marker date="1554439325859" expanded="true" signature="146:291" ph="{...}" />
+            <marker date="1554439325859" expanded="true" signature="221:287" ph="{...}" />
+            <marker date="1554439325859" expanded="true" signature="252:284" ph="{...}" />
           </folding>
         </state>
       </provider>
