@@ -18,7 +18,11 @@ public class Animal : MonoBehaviour
 	}
 	
 
-	void Update () {
-		
+	void Update ()
+	{
+		if (!CanMove)
+		{
+			transform.Rotate(100,0,0);
+		}	
 	}
 }
