@@ -331,6 +331,7 @@ MonoBehaviour:
   CanMove: 1
   SkinColor: {r: 0, g: 0, b: 0, a: 0}
   WingColor: {r: 0, g: 0, b: 0, a: 0}
+  CanWalk: 0
 --- !u!1 &509135626
 GameObject:
   m_ObjectHideFlags: 0

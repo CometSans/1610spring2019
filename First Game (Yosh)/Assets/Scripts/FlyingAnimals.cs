@@ -6,7 +6,7 @@ public class FlyingAnimals : Animal
 {
 
 	public Color WingColor;
-	
+	public bool CanWalk;
 
 	// Use this for initialization
 	void Start () {
