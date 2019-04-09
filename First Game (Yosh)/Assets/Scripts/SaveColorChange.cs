@@ -6,21 +6,13 @@ using UnityEngine.Events;
 public class SaveColorChange : MonoBehaviour
 {
 
-	public UnityEvent SaveColorChangeEvent, MouseDownEvent;
+	public UnityEvent OnEvent;
 	
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
+	 void Update()
 	{
 
-		SaveColorChangeEvent.Invoke();
-		{
-			MouseDownEvent.Invoke();
-		}
+	OnEvent.Invoke();
+		
 		
 	}
 }
