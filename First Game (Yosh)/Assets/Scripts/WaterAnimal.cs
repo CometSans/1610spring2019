@@ -6,7 +6,7 @@ public class WaterAnimal : Animal
 {
 
 	public Color FinColor;
-	public float DamageLevel;
+	
 	public bool CanWalkOnLand;
 	
 	// Use this for initialization
