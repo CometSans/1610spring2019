@@ -15,7 +15,7 @@ public class Animal : MonoBehaviour
 	//Write Event that changes a color and game variables HOMEWORK
 	void Start ()
 	{
-		GetComponent<SpriteRenderer>().color = SkinColor;
+		
 
 	}
 	
@@ -24,7 +24,12 @@ public class Animal : MonoBehaviour
 	{
 		if (!CanMove)
 		{
-			transform.Rotate(100,0,0);
-		}	
+			transform.Rotate(100, 0, 0);
+		}
+		else
+		{
+			transform.Rotate(10,0,0);
+		}
+		
 	}
 }
