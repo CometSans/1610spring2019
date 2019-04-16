@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class MoveCharacter : MonoBehaviour
 {
-
-	public CharacterController Controller;
+	public float Speed = 3;
 	
-	void Start () 
+	
+	
+	private CharacterController _controller;
+	private Vector3 position;
+	
+	void Start ()
 	{
-		
+		_controller = GetComponent<CharacterController>();
 	}
 	
-	// Update is called once per frame
-	void Update () 
+	void Update ()
 	{
+		position.y = Input.GetAxis("Vertical") * Speed*Time.deltaTime;
+		position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
 		
+		_controller.Move(position);
 	}
 }
