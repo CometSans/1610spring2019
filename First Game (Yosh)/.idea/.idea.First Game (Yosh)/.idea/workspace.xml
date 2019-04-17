@@ -141,13 +141,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="105">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <marker date="1555346372832" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555346372832" expanded="true" signature="122:493" ph="{...}" />
-                <marker date="1555346372832" expanded="true" signature="241:300" ph="{...}" />
-                <marker date="1555346372832" expanded="true" signature="318:491" ph="{...}" />
+                <marker date="1555475927814" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555475927814" expanded="true" signature="122:535" ph="{...}" />
+                <marker date="1555475927814" expanded="true" signature="283:342" ph="{...}" />
+                <marker date="1555475927814" expanded="true" signature="360:533" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -213,7 +213,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="672" />
+    <option name="x" value="625" />
     <option name="y" value="23" />
     <option name="width" value="815" />
     <option name="height" value="791" />
@@ -300,11 +300,12 @@
       <workItem from="1555127503225" duration="109000" />
       <workItem from="1555215320065" duration="302000" />
       <workItem from="1555344972355" duration="1529000" />
+      <workItem from="1555475825855" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16758000" />
+    <option name="totallyTimeSpent" value="16866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +317,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="672" y="23" width="815" height="791" extended-state="0" />
+    <frame x="625" y="23" width="815" height="791" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5549806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -502,17 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <marker date="1550078984179" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550078984179" expanded="true" signature="139:168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -528,15 +518,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FloatData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1550078984179" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550078984179" expanded="true" signature="139:168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MoveCharacter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <marker date="1555346372832" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555346372832" expanded="true" signature="122:493" ph="{...}" />
-            <marker date="1555346372832" expanded="true" signature="241:300" ph="{...}" />
-            <marker date="1555346372832" expanded="true" signature="318:491" ph="{...}" />
+            <marker date="1555475927814" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555475927814" expanded="true" signature="122:535" ph="{...}" />
+            <marker date="1555475927814" expanded="true" signature="283:342" ph="{...}" />
+            <marker date="1555475927814" expanded="true" signature="360:533" ph="{...}" />
           </folding>
         </state>
       </provider>
