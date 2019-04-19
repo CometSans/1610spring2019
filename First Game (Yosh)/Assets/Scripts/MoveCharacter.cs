@@ -7,7 +7,7 @@ public class MoveCharacter : MonoBehaviour
 	public float Speed = 3;
 	public int Health;
 	public float Ammo;
-	
+	public float Lives;
 	
 	
 	
