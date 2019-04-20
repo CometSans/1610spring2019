@@ -9,7 +9,7 @@ public class Animal : MonoBehaviour
 	public FloatData Speed;
 	public bool CanMove;
 	public FloatData DamageLevel;
-	public FloatData Level;
+	public bool CanShoot;
 	
 	public Color SkinColor; 
 	//Write Event that changes a color and game variables HOMEWORK

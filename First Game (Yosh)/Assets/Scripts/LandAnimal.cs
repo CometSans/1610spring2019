@@ -11,7 +11,6 @@ public class LandAnimal : Animal
 	public Color ArmColor;
 	public Color LegColor; 
 	public UnityEvent Event;
-	public bool CanShoot;
 	
 	
 	// Use this for initialization
