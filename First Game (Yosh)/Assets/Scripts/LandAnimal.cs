@@ -11,7 +11,7 @@ public class LandAnimal : Animal
 	public Color ArmColor;
 	public Color LegColor; 
 	public UnityEvent Event;
-	
+	public FloatData Punch;	
 	
 	// Use this for initialization
 	void Start ()
