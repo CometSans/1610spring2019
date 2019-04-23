@@ -8,6 +8,7 @@ public class FlyingAnimals : Animal
 	public Color WingColor;
 	public bool CanWalk;
 	public FloatData Missile;
+
 	
 	// Use this for initialization
 	void Start () {
@@ -16,6 +17,10 @@ public class FlyingAnimals : Animal
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (CanWalk)
+		{
+	private FloatData Punch;
+	}
+	
 	}
 }
