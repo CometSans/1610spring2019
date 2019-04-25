@@ -6,8 +6,7 @@ public class WaterAnimal : Animal
 {
 
 	public Color FinColor;
-	public FloatData Bite;
-	public FloatData Splash;
+	public FloatData Spit;
 	public bool CanWalkOnLand;
 	
 	// Use this for initialization
@@ -19,6 +18,10 @@ public class WaterAnimal : Animal
 	// Update is called once per frame
 	void Update () 
 	{
-		
+		if (CanWalkOnLand)
+		{
+
+	public FloatData Bite;
+}
 	}
 }
