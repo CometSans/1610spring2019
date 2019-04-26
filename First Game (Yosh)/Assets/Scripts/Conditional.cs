@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class Conditional : MonoBehaviour
 {
 
-    public UnityEvent OnEvent, OffEvent;
+    public UnityEvent OnEvent, OffEvent, PasswordEvent;
 	public bool OnBool;
 	public int Number = 11;
 	public string Password;
@@ -35,7 +35,7 @@ public class Conditional : MonoBehaviour
 
 		if (Password == "OU812")
 		{
-			print("Correct");
+			PasswordEvent.Invoke();
 		}
 		else
 		{
