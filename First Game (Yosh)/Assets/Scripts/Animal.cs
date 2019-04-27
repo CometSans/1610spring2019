@@ -1,18 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Animal : MonoBehaviour
 {
+	public UnityEvent PhysicalAttack, RangedAttack;
+	
 	public string Name;
 	public FloatData Health;
 	public FloatData Speed;
-	public bool CanMove;
+	public bool CanWalk;
 	public FloatData DamageLevel;
 	public bool CanShoot;
 	
 	public Color SkinColor; 
-	//Write Event that changes a color and game variables HOMEWORK
 	void Start ()
 	{
 		
@@ -22,13 +24,14 @@ public class Animal : MonoBehaviour
 
 	void Update ()
 	{
-		if (!CanMove)
+		if (!CanWalk)
 		{
-			transform.Rotate(100, 0, 0);
+			PhysicalAttack.Invoke();
 		}
-		else
+
+		if (CanShoot)
 		{
-			transform.Rotate(10,0,0);
+			RangedAttack.Invoke();
 		}
 		
 	}
