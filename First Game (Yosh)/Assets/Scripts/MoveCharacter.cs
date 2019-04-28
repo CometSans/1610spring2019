@@ -32,16 +32,14 @@ public class MoveCharacter : MonoBehaviour
 
 		}
 
-		if (Input.GetButton("Jump"))
+		if (_controller.isGrounded && Input.GetButton("Jump"))
 		{
 			position.y = JumpForce;
 		}
-		else
-		{
-			//position.y = Gravity * Time.deltaTime;
-		}
+		
 
 		position.y += Gravity * Time.deltaTime;
+		
 		//if (Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0)
 		{
 			//position.y = Input.GetAxis("Vertical") * Speed * Time.deltaTime;
