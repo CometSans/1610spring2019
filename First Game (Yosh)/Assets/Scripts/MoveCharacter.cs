@@ -5,6 +5,8 @@ using UnityEngine.Events;
 
 public class MoveCharacter : MonoBehaviour
 {
+	//Do not use Ridgid bodies with CharacterController
+	//CharacterController only work with 3D physics
 	public UnityEvent OnGrounded;
 	
 	public float Speed = 3;

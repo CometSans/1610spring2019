@@ -10,8 +10,10 @@ public class FlyingAnimals : Animal
 
 	
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+		newColor = Color.blue;
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame

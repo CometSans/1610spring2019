@@ -13,8 +13,15 @@ public class EnemyAI : MonoBehaviour
 		agent = GetComponent<NavMeshAgent>();
 	}
 	
-	void Update ()
+	void OnTriggerStay(Collider other)
 	{
 		agent.destination = Player.position;
 	}
+
+	private void OnTriggerExit(Collider other)
+	{
+		agent.destination = transform.position;
+	}
+	
+	
 }

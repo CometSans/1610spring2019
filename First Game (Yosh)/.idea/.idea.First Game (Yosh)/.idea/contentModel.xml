@@ -8,10 +8,12 @@
           <e p="Animal.cs" t="Include" />
           <e p="Collection.cs" t="Include" />
           <e p="Conditional.cs" t="Include" />
+          <e p="Counter.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="FlipCharacter.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FlyingAnimals.cs" t="Include" />
+          <e p="Forces.cs" t="Include" />
           <e p="FunctionsWithParams.cs" t="Include" />
           <e p="LandAnimal.cs" t="Include" />
           <e p="LightSwitch.cs" t="Include" />
@@ -19,7 +21,9 @@
           <e p="MoveCharacter.cs" t="Include" />
           <e p="PenguinEvent.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
-          <e p="SaveColorChange.cs" t="Include" />
+          <e p="ReturnFunctions.cs" t="Include" />
+          <e p="RunAnims.cs" t="Include" />
+          <e p="UpdateBar.cs" t="Include" />
           <e p="WaterAnimal.cs" t="Include" />
         </e>
       </e>

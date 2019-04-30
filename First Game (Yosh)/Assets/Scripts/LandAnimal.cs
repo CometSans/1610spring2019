@@ -15,7 +15,8 @@ public class LandAnimal : Animal
 	// Use this for initialization
 	void Start ()
 	{
-		
+		newColor = Color.green;
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame

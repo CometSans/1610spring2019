@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Accept different data and manipulate them
 public class FunctionsWithParams : MonoBehaviour {
 
 	// Use this for initialization

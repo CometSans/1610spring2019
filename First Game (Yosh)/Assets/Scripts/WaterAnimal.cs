@@ -14,7 +14,8 @@ public class WaterAnimal : Animal
 	// Use this for initialization
 	void Start ()
 	{
-		
+		newColor = Color.red;
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame

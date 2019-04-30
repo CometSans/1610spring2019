@@ -13,16 +13,25 @@ public class Animal : MonoBehaviour
 	public bool CanWalk;
 	public FloatData DamageLevel;
 	public bool CanShoot;
+
+	protected Color newColor;
 	
-	public Color SkinColor; 
-	void Start ()
+	public Color SkinColor;
+
+	public void Move()
+	{
+		print("Move");
+	}
+	
+	
+	private void Start ()
 	{
 		
 
 	}
 	
 
-	void Update ()
+	private void Update ()
 	{
 		if (!CanWalk)
 		{
